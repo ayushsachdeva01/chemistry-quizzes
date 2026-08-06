@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "d_block",
+      "name": "D Block",
+      "description": "Questions covering transition elements, trends, compounds, catalysts and important reactions.",
+      "category": "Chemistry",
+      "path": "packs/d_block.json",
+      "icon": "atom"
+    },
+    {
+      "id": "p_block_g13",
+      "name": "P Block - Group 13",
+      "description": "Questions covering Group 13 trends, compounds, structures and reactions.",
+      "category": "Chemistry",
+      "path": "packs/p_block_g13.json",
+      "icon": "book"
+    },
+    {
+      "id": "p_block_g14",
+      "name": "P Block - Group 14",
+      "description": "Questions covering Group 14 trends, carbon allotropes, oxides, silicates, silicones and important reactions.",
+      "category": "Chemistry",
+      "path": "packs/p_block_g14.json",
+      "icon": "cards"
+    },
+    {
+      "id": "f_block",
+      "name": "F Block",
+      "description": "Questions covering lanthanoids, actinoids, electronic configurations and periodic trends.",
+      "category": "Chemistry",
+      "path": "packs/f_block.json",
+      "icon": "flask"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+[
+  {
+    "versions": [
+      "Write the increasing order of Atomic Size of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "C < Si < Ge < Sn < Pb"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of Electronegativity of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "C > Pb > Si = Ge = Sn"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of Melting Point of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "C > Si > Ge > Pb > Sn"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of Boiling Point of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "C > Si > Ge > Sn > Pb"
+  },
+  {
+    "versions": [
+      "Write the increasing order of Density of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "Si < C < Ge < Sn < Pb"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of First Ionisation Enthalpy of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "C > Si > Ge > Pb > Sn"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of Catenation tendency of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "● C >> Si > Ge > Sn\n● Pb does not show catenation"
+  },
+  {
+    "versions": [
+      "What is the hybridisation and shape of N in N(SiH₃)₃ and why?"
+    ],
+    "group": "P Block G-14",
+    "answer": "● N in N(SiH₃)₃ is sp² hybridised and planar.\n● Lone pair on N participates in pπ-dπ back bonding with vacant d-orbitals of Si."
+  },
+  {
+    "versions": [
+      "Explain the hydrolysis of CCl₄ and other Group 14 tetrachlorides. Which member forms Silicic Acid?"
+    ],
+    "group": "P Block G-14",
+    "answer": "● CCl₄ does not undergo hydrolysis due to absence of vacant d-orbitals in C. (Water Repellant)\n● SiCl₄ undergoes hydrolysis and forms Silicic Acid.\n● SiCl₄ + 4H₂O → Si(OH)₄ or H₄SiO₄ (Silicic Acid) + 4HCl\n● GeCl₄, SnCl₄ and PbCl₄ also undergo hydrolysis."
+  },
+  {
+    "versions": [
+      "Explain the nature of MO₂ oxides of Group 14 elements."
+    ],
+    "group": "P Block G-14",
+    "answer": "● CO₂, SiO₂, GeO₂: Acidic\n● SnO₂, PbO₂: Amphoteric"
+  },
+  {
+    "versions": [
+      "Explain the reactivity of Group 14 elements with H₂O and steam."
+    ],
+    "group": "P Block G-14",
+    "answer": "● C, Si, Ge and Pb: Do not react with H₂O.\n● Sn reacts with steam."
+  },
+  {
+    "versions": [
+      "Explain the reaction of Group 14 elements with halogens and the nature of their tetrahalides."
+    ],
+    "group": "P Block G-14",
+    "answer": "● M + 2X₂ → MX₄\n● MX₄ are generally covalent.\n● Exceptions: SnF₄ and PbF₄ are ionic.\n● O²⁻ and F⁻ are hard ions.\n● PbI₄, SiCl₆ does not exist."
+  },
+  {
+    "versions": [
+      "Which allotrope of carbon has the maximum C–C bond length?\nWhich is the thermodynamically most stable allotrope of carbon?\nWhich is the purest form of carbon?",
+      "Which allotrope of carbon has the maximum C–C bond length?\nWhich is the purest form of carbon?\nWhich is the thermodynamically most stable allotrope of carbon?",
+      "Which is the thermodynamically most stable allotrope of carbon?\nWhich is the purest form of carbon?\nWhich allotrope of carbon has the maximum C–C bond length?"
+    ],
+    "group": "P Block G-14",
+    "answer": "Max BL:Diamond, thermodynamically: Graphite, Purest: Fullerene"
+  },
+  {
+    "versions": [
+      "Write the structure and properties of Diamond."
+    ],
+    "group": "P Block G-14",
+    "answer": "● 3D network structure.\n● Each C is sp³ hybridised.\n● Each C forms 4 σ bonds.\n● Hardest allotrope of carbon.\n● Electrical insulator."
+  },
+  {
+    "versions": [
+      "Write the structure and properties of Graphite."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Planar hexagonal layered structure.\n● Each C is bonded to 3 other C atoms.\n● Free/delocalised e⁻ present on carbon.\n● Conductor of electricity.\n● Layers are held together by weak van der Waals forces."
+  },
+  {
+    "versions": [
+      "Write the structure and properties of Fullerene C₆₀."
+    ],
+    "group": "P Block G-14",
+    "answer": "● C₆₀ is Buckminsterfullerene.\n● Soccer-ball structure.\n● Contains 20 six-membered rings and 12 five-membered rings.\n● Each C forms 3 σ bonds.\n● Each six-membered ring is fused to both six-membered and five-membered rings.\n● Each five-membered ring is fused only to six-membered rings.\n● Purest form of carbon because it has no dangling bonds."
+  },
+  {
+    "versions": [
+      "Write the important uses of Carbon and its allotropes."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Electrodes\n● Plastic material\n● Crucibles\n● Activated charcoal: Adsorbs poisonous gases\n● Black pigment\n● Nanotechnology\n● Lubricant\n● Glass cutters\n● Jewellery: Diamond\n● Reducing agent"
+  },
+  {
+    "versions": [
+      "Write four methods of preparation of CO and state its properties."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Limited O₂: 2C + O₂ → 2CO\n● HCOOH --conc. H₂SO₄→ CO + H₂O\n● Water Gas: C + H₂O(g) → CO + H₂\n● Producer Gas: C + O₂ + N₂ → CO + N₂\n\nProperties:\n● Colourless and odourless gas\n● Water soluble\n● Poisonous\n● Strong reducing agent"
+  },
+  {
+    "versions": [
+      "Write the methods of preparation of CO₂ and state its properties."
+    ],
+    "group": "P Block G-14",
+    "answer": "Preparation:\n● Complete combustion: C + O₂ → CO₂\n● Combustion of carbohydrates produces CO₂\n● CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂\n● CaCO₃ --heat→ CaO + CO₂\n\nProperties:\n● Colourless and odourless gas\n● Soluble in water\n● CO₂ + H₂O ⇌ H₂CO₃\n● H₂CO₃/HCO₃⁻ system acts as a buffer in blood\n● Greenhouse gas\n● Used by plants in photosynthesis\n● Linear molecule with sp hybridisation\n● pπ–pπ bonding\n● Dipole moment = 0"
+  },
+  {
+    "versions": [
+      "Classify the allotropes/forms of Silica (SiO₂) into crystalline and amorphous forms."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Crystalline: Quartz, Tridymite, Cristobalite\n● Amorphous: Agate, Jasper, Onyx, Kieselguhr\n● Quartz: Pure form of silica; used in watches and piezoelectric circuits."
+  },
+  {
+    "versions": [
+      "Why is Silica (SiO₂) used for making glass and which compounds cannot be stored in glass?"
+    ],
+    "group": "P Block G-14",
+    "answer": "● Si–O bond has high bond enthalpy, making SiO₂ highly stable and generally non-reactive.\n● Therefore, silica is suitable for making glass.\n● Strong alkalis such as NaOH cannot be stored in glass.\n● HF cannot be stored in glass because it attacks SiO₂.\n● SiO₂ + 2NaOH → Na₂SiO₃ + H₂O\n● SiO₂ + 4HF → SiF₄ + 2H₂O\n● With excess HF: SiO₂ + 6HF → H₂SiF₆ + 2H₂O"
+  },
+  {
+    "versions": [
+      "Which elements among Group 14 behave as semiconductors?"
+    ],
+    "group": "P Block G-14",
+    "answer": "Si, Ge (extra: CuO too)"
+  },
+  {
+    "versions": [
+      "Give examples of Orthosilicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Zircon: ZrSiO₄\n● Forsterite: Mg₂SiO₄"
+  },
+  {
+    "versions": [
+      "Give an example of Pyrosilicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "Thortveitite: Sc₂Si₂O₇"
+  },
+  {
+    "versions": [
+      "Give examples of Cyclic Silicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Wollastonite: Ca₃Si₃O₉\n● Beryl: Be₃Al₂Si₆O₁₈"
+  },
+  {
+    "versions": [
+      "Give an example of Chain Silicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "Spodumene: LiAl(SiO₃)₂"
+  },
+  {
+    "versions": [
+      "Give an example of Linked/Double Chain Silicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "Asbestos"
+  },
+  {
+    "versions": [
+      "Give an example of Sheet Silicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "Clay"
+  },
+  {
+    "versions": [
+      "Give examples of 3D Silicates."
+    ],
+    "group": "P Block G-14",
+    "answer": "● Zeolites\n● Feldspar"
+  },
+  {
+    "versions": [
+      "Explain the preparation of Silicones and name the compound used to terminate the polymer chain."
+    ],
+    "group": "P Block G-14",
+    "answer": "● R-Cl + Si ----Cu Powder ---> R₂SiCl₂\n● R₂SiCl₂ + 2H₂O → R₂Si(OH)₂ + 2HCl\n● R₂Si(OH)₂ undergoes condensation polymerisation to form Silicone with –Si–O–Si–O– backbone.\n● R₃SiCl is used as a chain terminating agent."
+  },
+  {
+    "versions": [
+      "Write the important properties and uses of Silicones."
+    ],
+    "group": "P Block G-14",
+    "answer": "Properties:\n● Water repellent\n● High thermal stability\n● High dielectric strength\n● Resistant to chemicals\n\nUses:\n● Sealants\n● Greases and lubricants\n● Waterproofing materials\n● Plastic surgery"
+  }
+]

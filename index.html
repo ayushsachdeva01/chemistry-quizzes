@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07111f" />
+  <title>AminoRecall — Chemistry Practice</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <main class="app-shell">
+    <header class="site-header">
+      <button class="brand" id="homeBtn" aria-label="Go home">
+        <span class="brand-mark">α</span>
+        <span><strong>AminoRecall</strong><small>NCERT Class XII</small></span>
+      </button>
+      <div class="score-pill" id="scorePill" hidden>
+        <span>Score</span><strong id="scoreText">0 / 0</strong>
+      </div>
+    </header>
+
+    <section id="startScreen" class="screen start-screen">
+      <div class="hero">
+        <span class="eyebrow">VISUAL MEMORISATION QUIZ</span>
+        <h1>Master Chemistry with <span>active recall.</span></h1>
+        <p>Practice amino acids, vitamins and chapter-wise study packs with adaptive repetition for the questions you
+          miss.</p>
+      </div>
+
+      <div class="mode-grid">
+        <h3>Alpha Amino Acids</h3>
+        <button class="mode-card" data-mode="structure_name">
+          <span class="mode-icon">⌁</span>
+          <span class="mode-copy"><strong>Structure → Name</strong><small>See a structure and type its
+              name</small></span>
+          <span class="arrow">→</span>
+        </button>
+        <button class="mode-card" data-mode="name_structure">
+          <span class="mode-icon">▦</span>
+          <span class="mode-copy"><strong>Name → Structure</strong><small>Pick the correct structure from all
+              20</small></span>
+          <span class="arrow">→</span>
+        </button>
+        <button class="mode-card featured" data-mode="mixed">
+          <span class="mode-icon">⌘</span>
+          <span class="mode-copy"><strong>Mixed Practice</strong><small>Randomly alternate between both
+              modes</small></span>
+          <span class="recommended">RECOMMENDED</span>
+          <span class="arrow">→</span>
+        </button>
+        <h3>Vitamins</h3>
+        <button class="mode-card vitamin-mode-card featured" id="vitaminModeBtn">
+          <span class="mode-icon">V</span>
+          <span class="mode-copy"><strong>Vitamins Learner</strong><small>Recall the answer, reveal it, then grade
+              yourself</small></span>
+          <span class="recommended">RECOMMENDED</span>
+          <span class="arrow">→</span>
+        </button>
+        <button class="mode-card vitamin-mode-card" id="vitaminMcqModeBtn">
+          <span class="mode-icon">✓</span>
+          <span class="mode-copy"><strong>Vitamins MCQ</strong><small>Choose from 4–5 options and get graded
+              automatically</small></span>
+          <span class="arrow">→</span>
+        </button>
+        <div class="packs-section-heading">
+          <div>
+            <h3>Study Packs</h3>
+            <span id="packCount">Loading…</span>
+          </div>
+          <button class="refresh-packs-btn" id="refreshPacksBtn" type="button">↻ Refresh</button>
+        </div>
+        <div class="pack-grid" id="packGrid">
+          <div class="pack-loading">Loading study packs…</div>
+        </div>
+      </div>
+
+      <<div class="study-note">
+        <strong>Adaptive practice</strong>
+        <span>Our smart review engine balances new, familiar, and challenging questions to maximize long-term
+          retention.</span>
+        </div>
+        <footer>Created by Ayush Sachdeva</footer>
+    </section>
+
+    <section id="quizScreen" class="screen quiz-screen" hidden>
+      <div class="quiz-topline">
+        <div>
+          <button class="back-btn" id="backBtn">← Modes</button>
+          <span class="mode-label" id="modeLabel"></span>
+        </div>
+        <span class="missed-badge" id="missedBadge">0 to review</span>
+      </div>
+
+      <div id="questionArea"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

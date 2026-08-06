@@ -1,0 +1,170 @@
+[
+  {
+    "versions": [
+      "Write the decreasing order of Melting Point of Group 13 elements."
+    ],
+    "group": "P Block G-13",
+    "answer": "B > Al > Tl > In > Ga"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of Boiling Point of Group 13 elements."
+    ],
+    "group": "P Block G-13",
+    "answer": "B > Al > Ga > In > Tl"
+  },
+  {
+    "versions": [
+      "Write the increasing order of Atomic Size of Group 13 elements."
+    ],
+    "group": "P Block G-13",
+    "answer": "B < Ga < Al < In < Tl"
+  },
+  {
+    "versions": [
+      "Write the increasing order of size of M³⁺ ions of Group 13."
+    ],
+    "group": "P Block G-13",
+    "answer": "B³⁺ < Al³⁺ < Ga³⁺ < In³⁺ < Tl³⁺"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of First Ionisation Enthalpy of Group 13 elements."
+    ],
+    "group": "P Block G-13",
+    "answer": "B > Tl > Ga > Al > In"
+  },
+  {
+    "versions": [
+      "Write the decreasing order of Electronegativity of Group 13 elements."
+    ],
+    "group": "P Block G-13",
+    "answer": "B > Tl > In > Ga > Al"
+  },
+  {
+    "versions": [
+      "Properties of Boron"
+    ],
+    "group": "P Block G-13",
+    "answer": "● Covalent Bonds\n● High Melting Point\n● Icosahedral 3D Structure\n● 4 Max Covalency (Although Group has Max 6)"
+  },
+  {
+    "versions": [
+      "Explain the structure of Diborane (B₂H₆) with bond lengths and bond angles."
+    ],
+    "group": "P Block G-13",
+    "answer": "● Diborane: B₂H₆ has 4 terminal B–H bonds and 2 bridging B–H–B bonds.\n● B₂H₆ is a planar molecule.\n● Terminal B–H = 119 pm, bridge B–H = 134 pm\n● ∠H–B–H ≈ 120°, ∠B–H–B ≈ 97°\n● The two bridge bonds are 3-centre-2-electron (3c–2e) bonds."
+  },
+  {
+    "versions": [
+      "Explain the structure and formation of AlCl₃ and compare its nature with AlF₃ and Why BCl₃ does not form a dimer?"
+    ],
+    "group": "P Block G-13",
+    "answer": "● Al₂O₃ + C + Cl₂ → Al₂Cl₆ + CO (Reductive Chlorination)\n● AlCl₃ forms a dimer with two bridging Cl atoms.\n● AlCl₃ is covalent due to high polarising power of Al³⁺, whereas AlF₃ is predominantly ionic.\n● Due to large size of Cl, B cannot handle 4 Cl atoms"
+  },
+  {
+    "versions": [
+      "Write the disproportionation reaction of AlCl."
+    ],
+    "group": "P Block G-13",
+    "answer": "3AlCl → 2Al + AlCl₃"
+  },
+  {
+    "versions": [
+      "Explain the reactivity of Group 13 elements towards air."
+    ],
+    "group": "P Block G-13",
+    "answer": "● 4M + 3O₂ → 2M₂O₃\n● B is unreactive in crystalline form (reacts in amorphous form).\n● Al forms a protective Al₂O₃ layer (reacts if layer is removed).\n● Ga, In: No reaction."
+  },
+  {
+    "versions": [
+      "Explain the reactivity of Group 13 elements towards N₂."
+    ],
+    "group": "P Block G-13",
+    "answer": "● 2M + N₂ → 2MN\n● B: Heating\n● Al, Ga, In: Strong Heating\n● Tl: No Reaction"
+  },
+  {
+    "versions": [
+      "Explain Back Bonding in Group 13 halides and its effect on acidic nature."
+    ],
+    "group": "P Block G-13",
+    "answer": "● Backbonding: BF₃ > BCl₃ > BBr₃ > BI₃\n● Acidic Nature: BF₃ < BCl₃ < BBr₃ < BI₃\n● Back bonding provides e⁻ to B, making it less acidic."
+  },
+  {
+    "versions": [
+      "Explain the nature of oxides of Group 13 elements."
+    ],
+    "group": "P Block G-13",
+    "answer": "● B₂O₃ is acidic.\n● Al₂O₃ and Ga₂O₃ are amphoteric.\n● In₂O₃ and Tl₂O₃ are basic.\n● Basic character increases down the group."
+  },
+  {
+    "versions": [
+      "Write the properties and structure of Boric Acid (H₃BO₃)."
+    ],
+    "group": "P Block G-13",
+    "answer": "● H₃BO₃ or B(OH)₃ is a weak monobasic Lewis acid.\n● It has 3 OH connected to one Boron.\n● B(OH)₃ + 2H₂O ⇌ [B(OH)₄]⁻ + H₃O⁺ (Non Protic Acid).\n● Solid at Room Temp => Hydrogen Bonding"
+  },
+  {
+    "versions": [
+      "Write the properties and formation of trihalides of Group 13 and explain their hydrolysis."
+    ],
+    "group": "P Block G-13",
+    "answer": "● Trihalides have general formula MX₃ and are generally covalent and electron deficient.\n● 2M + 3X₂ → 2MX₃\n● Hydrolysed Easily →\nB forms [B(OH)₄]⁻, Others form [M(H₂O)₆]⁺³"
+  },
+  {
+    "versions": [
+      "Write two methods for the preparation of Diborane (B₂H₆)."
+    ],
+    "group": "P Block G-13",
+    "answer": "● BF₃ + LiAlH₄ / NaH (450K) / NaBH₄ → B₂H₆\n● 2NaBH₄ + I₂ → B₂H₆ + 2NaI + H₂"
+  },
+  {
+    "versions": [
+      "Explain the formation of Borazole (Borazine) and B₂H₆•2NH₃"
+    ],
+    "group": "P Block G-13",
+    "answer": "● B₂H₆ + NH₃ (in 1:2 quantities) -High Temp-> B₃N₃H₆ (Borazole) \n● B₂H₆ + NH₃ -Low Temp-> B₂H₆•2NH₃"
+  },
+  {
+    "versions": [
+      "Two ways to write formula of Borax"
+    ],
+    "group": "P Block G-13",
+    "answer": "● Na₂B₄O₇•10H₂O\n● Na₂[B₄O₅ (OH)₄]•8H₂O"
+  },
+  {
+    "versions": [
+      "Answer according to Borax:\ni) No. of B in sp² , ii) No. of B in sp³\niii) No. of B-O-B bonds iv) No of B-O bonds\nv) No. of Bridgind Oxygen"
+    ],
+    "group": "P Block G-13",
+    "answer": "i) 2 ii) 2 iii) 5 iv) 14 v) 5"
+  },
+  {
+    "versions": [
+      "Two methods to prepare Borax."
+    ],
+    "group": "P Block G-13",
+    "answer": "● Ca₂B₆O₁₁ (Colemanite) + Na₂CO₃ -heat-> Na₂B₄O₇ + NaBO₂ + CaCO₃\n● H₃BO₃ + Na₂CO₃ -> Na₂B₄O₇ + H₂O + CO2"
+  },
+  {
+    "versions": [
+      "Answer according to Borax Bead Test:\ni) What is the wire used?\nii) What if formula of Glassy Bead?\niii) Color of Fe, Co, Ni, Cu, Cr during the test and General Compound Formed."
+    ],
+    "group": "P Block G-13",
+    "answer": "i) Platinum Wire\nii) NaBO₂ (Sodium Metaborate) + B₂O₃\niii) General Compound: M(BO₂)₂ (Metal Metaborate)\nCo, Cu -> Blue, Fe, Cr -> Green, Ni -Brown [ex: Co(BO₂)₂]"
+  },
+  {
+    "versions": [
+      "What is the trend of E⁰(M⁺³/M) of G-13?"
+    ],
+    "group": "P Block G-13",
+    "answer": "● Decreases( in -ve) down the group\n● Tl only has +ve value\n\n● Al (-1.66), Ga(-0.56), In(-0.34), Tl(+1.26)"
+  },
+  {
+    "versions": [
+      "Explain reactivity of B and Al with Acid and alkalies."
+    ],
+    "group": "P Block G-13",
+    "answer": "● Boron does not react with acid or alkalies\n● Aluminum reacts with both acid and alkalies(amphoteric)\n●** Conc. Nitric Acid(HNO₃) forms a protective layer on Al so it does not react"
+  }
+]

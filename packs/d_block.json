@@ -1,0 +1,359 @@
+[
+  {
+    "versions": [
+      "What is the order of density of 3d Series",
+      "Arrange 3d Series according to Density"
+    ],
+    "group": "D Block",
+    "answer": "Ni = Cu > Co > Fe > Mn >= Cr > Zn > V > Ti > Sc"
+  },
+  {
+    "versions": [
+      "What is the order of ionic radii of 3d Series",
+      "Arrange 3d Series according to size",
+      "What is the prder of ionic radii of 3d Series in Ground State"
+    ],
+    "group": "D Block",
+    "answer": "Sc > Ti > Mn = Zn > V > Cr >= Cu > Fe >= Co = Ni"
+  },
+  {
+    "versions": [
+      "What is the ionic radii of M+2 of 3d Series",
+      "Arrange Divalent Cations of 3d Series",
+      "Arrange Dipositive Ions of 3d Series"
+    ],
+    "group": "D Block",
+    "answer": "Cr = Mn > V > Fe > Zn >= Co >= Cu > Ni\nKara Man Vaha Fir Zaane Ko Kyun Nhi gye"
+  },
+  {
+    "versions": [
+      "What is the order of ionic radii of M+3 of 3d Series",
+      "Arrange the Trivalent Cations of 3d Series",
+      "What is the order of Tripositive ions of 3d Series"
+    ],
+    "group": "D Block",
+    "answer": "Sc > Ti > Mn = Fe >= V > Cr > Co >= Ni"
+  },
+  {
+    "versions": [
+      "What is the order of enthalpy of atomisation of 3d Series",
+      "Arrange 3d Series according to ΔHₐ",
+      "Arrange 3d Series according to atomisation enthalpy"
+    ],
+    "group": "D Block",
+    "answer": "V > Ti > Ni > Co > Fe > Cr > Cu > Sc > Mn > Zn"
+  },
+  {
+    "versions": [
+      "Write the constituents of Gun Metal, Brass, Bronze, Mischmetal, German Silver, Bell Metal, and Stainless Steel.",
+      "State the composition of the following alloys: Gun Metal, Brass, Bronze, Mischmetal, German Silver, Bell Metal, and Stainless Steel."
+    ],
+    "group": "D Block",
+    "answer": "● Gun Metal: Cu, Sn, Zn (Gun Kyun Suni Zaye)\n● Brass: Cu, Zn | Bronze: Cu, Sn (BroNze = TiN, Brass - Zn)\n● Mischmetal: 95% Lanthanoids, 5% Fe\n● German Silver: Cu, Zn, Ni (Germany Kyun Zana Nhi)\n● Bell Metal: Cu, Sn (Bell Kyun Sunu)\n● Stainless Steel: Fe, Ni, Cr (Stainless Steel Fir Na Crrode ho)"
+  },
+  {
+    "versions": [
+      "What is the lattice structue of each group of d block?",
+      "What is the Structure of Each group of D Block Generally?"
+    ],
+    "group": "D Block",
+    "answer": "HCP, HCP, BCC, BCC, HCP, HCP, CCP, CCP, CCP, N/A"
+  },
+  {
+    "versions": [
+      "Arrange according to melting point Zn, Cd, Hg?",
+      "Arrange according to melting point Zn, Hg, Cd",
+      "Arrange according to melting point Hg, Cd, Zn?"
+    ],
+    "group": "D Block",
+    "answer": "Zn > Cd > Hg => Lattice Structure"
+  },
+  {
+    "versions": [
+      "Arrange according to melting point Cu, Au, Ag.",
+      "Arrange according to melting point Cu, Ag, Au.",
+      "Arrange according to melting point Ag, Au, Cu."
+    ],
+    "group": "D Block",
+    "answer": "Cu > Au > Ag => Lattice Structure"
+  },
+  {
+    "versions": [
+      "Order of 1st ionisation energies of 3d Series.",
+      "Arrange 3d series acc. to IE of 3d Series.",
+      "Arrange according to the difficulty to remove a electron from elements of 3d Series."
+    ],
+    "group": "D Block",
+    "answer": "Sc < V < Cr < Ti < Mn < Ni < Cu < Co <= Fe < Zn"
+  },
+  {
+    "versions": [
+      "Arrange according to IE: p block, d block, s block",
+      "Arrange according to IE: d block, p block, s block",
+      "Arrange according to IE: p block, s block, d block"
+    ],
+    "group": "D Block",
+    "answer": "p > d > s"
+  },
+  {
+    "versions": [
+      "Arrange acc to IE 3d, 4d, 5d",
+      "Arrange acc to IE 4d, 3d, 5d",
+      "Arrange acc to IE 4d, 5d, 3d"
+    ],
+    "group": "D Block",
+    "answer": "5d > 3d > 4d"
+  },
+  {
+    "versions": [
+      "What are properties of Interstitial compounds?",
+      "What physical properties exhibited by Interstitial Compounds?",
+      "What characterstics do interstitial compounds show?"
+    ],
+    "group": "D Block",
+    "answer": "● Higher Melting Point\n● Hard\n● Metallic Conductivity\n● Chemically Inert"
+  },
+  {
+    "versions": [
+      "What is contact process and its catalyst?",
+      "State the catalyst used in Contact Process and Write its reaction."
+    ],
+    "group": "D Block",
+    "answer": "● V₂O₅ (Vanadium pentoxide)\n● 2SO₂ + O₂ ⇌ 2SO₃\n● Mechanism -\n\nSO₂ + V₂O₅ → SO₃ + V₂O₄\nV₂O₄ + ½O₂ → V₂O₅"
+  },
+  {
+    "versions": [
+      "What is reaction of I- to I2 and its catalyst?",
+      "State the reaction used to convert I- to I2 and its catalyst?"
+    ],
+    "group": "D Block",
+    "answer": "● Catalyst - Fe²⁺ / Fe³⁺\n● 2I⁻ + S₂O₈²⁻ → I₂ + 2SO₄²⁻\n● Mechanism -\n\n2Fe³⁺ + 2I⁻ → 2Fe²⁺ + I₂\n2Fe²⁺ + S₂O₈²⁻ → 2Fe³⁺ + 2SO₄²⁻"
+  },
+  {
+    "versions": [
+      "What is Haber's Process and its catalyst?",
+      "State the reaction of Haber's Process and its catalyst.a"
+    ],
+    "group": "D Block",
+    "answer": "● Fe (Iron)\n● N₂ + 3H₂ ⇌ 2NH₃"
+  },
+  {
+    "versions": [
+      "What is decon's process and its catalyst?",
+      "State the reaction of Decon's Process and its Catalyst?"
+    ],
+    "group": "D Block",
+    "answer": "● CuCl₂ (Cupric chloride)  \n● 4HCl + O₂ → 2Cl₂ + 2H₂O"
+  },
+  {
+    "versions": [
+      "What is Zigler Natta Catalyst And Its Use?"
+    ],
+    "group": "D Block",
+    "answer": "● Ziegler-Natta Catalyst - TiCl₄ + Al(C₂H₅)₃\n● Use - Polymerization of alkenes to form polymers like polyethene."
+  },
+  {
+    "versions": [
+      "What is the formula of Wilkinson's Catalyst?"
+    ],
+    "group": "D Block",
+    "answer": "RhCl(PPh₃)₃"
+  },
+  {
+    "versions": [
+      "What are the anomalies in E°(M²⁺/M) values in the 3d series?"
+    ],
+    "group": "D Block",
+    "answer": "● Mn: −1.18 V\n● Cu: +0.34 V\n● Zn: −0.76 V"
+  },
+  {
+    "versions": [
+      "What is Nessler's Reagent and its Use?"
+    ],
+    "group": "D Block",
+    "answer": "● Nessler’s Reagent - K₂HgI₄ (Potassium tetraiodomercurate(II))\n● Use - Detection of NH₃ and NH₄⁺"
+  },
+  {
+    "versions": [
+      "Which element has the highest Melting point in 3d, 4d, 5d series and overall d block?",
+      "Name the elements having the maximum melting point in the 3d, 4d and 5d transition series and overall d block.",
+      "State the highest melting point elements of the 3d, 4d and 5d series and overall d block."
+    ],
+    "group": "D Block",
+    "answer": "3d: Cr | 4d: Mo | 5d: W | Overall: W"
+  },
+  {
+    "versions": [
+      "Which element has the highest enthalpy of atomisation in the 3d, 4d, 5d series and overall d-block?",
+      "Name the elements having the maximum enthalpy of atomisation in the 3d, 4d, 5d series and the entire d-block.",
+      "State the highest enthalpy of atomisation elements of the 3d, 4d, 5d series and overall d-block."
+    ],
+    "group": "D Block",
+    "answer": "3d: V | 4d: Nb | 5d: W | Overall d-block: W"
+  },
+  {
+    "versions": [
+      "Arrange Ni, Pd, Pt acc to ΔHₐ.",
+      "Arrange Pt, Pd, Ni acc to ΔHₐ.",
+      "Arrange Ni, Pt, Pd acc to ΔHₐ."
+    ],
+    "group": "D Block",
+    "answer": "Pt > Ni > Pd"
+  },
+  {
+    "versions": [
+      "Arrange Cu, Ag, Au acc to ΔHₐ.",
+      "Arrange Ag, Cu, Au acc to ΔHₐ.",
+      "Arrange Cu, Au, Ag acc to ΔHₐ."
+    ],
+    "group": "D Block",
+    "answer": "Au > Cu > Ag"
+  },
+  {
+    "versions": [
+      "Arrange Zn, Hg, Cd acc to ΔHₐ.",
+      "Arrange Hg, Cd, Zn acc to ΔHₐ.",
+      "Arrange Cd, Zn, Hg acc to ΔHₐ."
+    ],
+    "group": "D Block",
+    "answer": "Zn > Cd > Hg"
+  },
+  {
+    "versions": [
+      "State Oxidation States of 3d Series Elements."
+    ],
+    "group": "D Block",
+    "answer": "3 | 2-4 | 2-5 | 2-6 | 2-7\n2-4,6 | 2-4 | 2-4 | 1,2 | 2"
+  },
+  {
+    "versions": [
+      "Write the hydrolysis, structure and properties of Mn₂O₇."
+    ],
+    "group": "D Block",
+    "answer": "● Hydrolysis: Mn₂O₇ + H₂O → 2HMnO₄ (permanganic acid)\n● Structure: O₃Mn–O–MnO₃, two MnO₄ tetrahedra sharing one O atom\n● Properties: Dark green oily liquid, acidic oxide, strong oxidising agent, explosive in nature."
+  },
+  {
+    "versions": [
+      "Write the hydrolysis, structure and properties of CrO₃."
+    ],
+    "group": "D Block",
+    "answer": "● Hydrolysis: CrO₃ + H₂O → H₂CrO₄ (chromic acid) + H₂Cr₂O₇ (dichromic acid)\n● Structure: Three O attached to Cr by double bonds, sp2\n● Properties: Dark red crystalline solid, acidic oxide, strong oxidising agent."
+  },
+  {
+    "versions": [
+      "What is the Cr–O–Cr bond angle in K₂Cr₂O₇?",
+      "State the Cr–O–Cr bond angle in potassium dichromate."
+    ],
+    "group": "D Block",
+    "answer": "126°"
+  },
+  {
+    "versions": [
+      "What is the structure and color of K₂Cr₂O₇?",
+      "Describe the structure and color of potassium dichromate."
+    ],
+    "group": "D Block",
+    "answer": "● Structure: Two CrO₄ tetrahedra sharing one O atom\n● Color: Orange"
+  },
+  {
+    "versions": [
+      "What happens when K₂Cr₂O₇ is heated?",
+      "Write the reaction of potassium dichromate on heating."
+    ],
+    "group": "D Block",
+    "answer": "4K₂Cr₂O₇ → 4K₂CrO₄ + 2Cr₂O₃ + 3O₂"
+  },
+  {
+    "versions": [
+      "What is the effect of increase or decrease in pH on dichromate/chromate equilibrium?",
+      "How does pH affect the conversion between Cr₂O₇²⁻ and CrO₄²⁻?"
+    ],
+    "group": "D Block",
+    "answer": "● Increase in pH:\nCr₂O₇²⁻ + 2OH⁻ → 2CrO₄²⁻ + H₂O\nOrange → Yellow\n● Decrease in pH:\n2CrO₄²⁻ + 2H⁺ → Cr₂O₇²⁻ + H₂O\nYellow → Orange"
+  },
+  {
+    "versions": [
+      "What are the uses of K₂Cr₂O₇?",
+      "State the uses of potassium dichromate."
+    ],
+    "group": "D Block",
+    "answer": "Strong oxidising agent, volumetric analysis, leather tanning and preparation of chrome alum, Modrant in dyes."
+  },
+  {
+    "versions": [
+      "Why is K₂Cr₂O₇ preferred over Na₂Cr₂O₇?",
+      "Why is potassium dichromate preferred over sodium dichromate?"
+    ],
+    "group": "D Block",
+    "answer": "K₂Cr₂O₇ is less soluble and easily crystallised in pure form, while Na₂Cr₂O₇ is highly soluble and deliquescent."
+  },
+  {
+    "versions": [
+      "What is the equivalent weight of K₂Cr₂O₇ in acidic medium?",
+      "Calculate the equivalent weight of potassium dichromate in acidic medium."
+    ],
+    "group": "D Block",
+    "answer": "294 / 6 = 49g"
+  },
+  {
+    "versions": [
+      "What is the method of preparation of K₂Cr₂O₇"
+    ],
+    "group": "D Block",
+    "answer": "4FeCr₂O₄ (Chromite Ore) + 8Na₂CO₃ + 7O₂ → 8Na₂CrO₄ (Chromate) + 2Fe₂O₃ + 8CO₂\n2Na₂CrO₄ + H₂SO₄ → Na₂Cr₂O₇(Dichromate) + Na₂SO₄ + H₂O\nNa₂Cr₂O₇ + 2KCl → K₂Cr₂O₇ + 2NaCl"
+  },
+  {
+    "versions": [
+      "What is the Chromyl Chloride Test?"
+    ],
+    "group": "D Block",
+    "answer": "● It is a test for detection of Cl⁻ ions.\n● On heating a chloride salt with K₂Cr₂O₇ and conc. H₂SO₄, red vapours of chromyl chloride (CrO₂Cl₂) are formed.\n4NaCl + K₂Cr₂O₇ + 6H₂SO₄ → 2CrO₂Cl₂ + 2KHSO₄ + 4NaHSO₄ + 3H₂O\n● Red vapours of CrO₂Cl₂ confirm the presence of chloride ions."
+  },
+  {
+    "versions": [
+      "What is the structure and color of MnO₄⁻?",
+      "Describe the structure and color of permanganate ion."
+    ],
+    "group": "D Block",
+    "answer": "● Structure: MnO₄⁻ has tetrahedral structure\n● Color: Violet"
+  },
+  {
+    "versions": [
+      "What happens when KMnO₄ is heated?",
+      "Write the reaction of potassium permanganate on heating."
+    ],
+    "group": "D Block",
+    "answer": "2KMnO₄ → K₂MnO₄ + MnO₂ + O₂"
+  },
+  {
+    "versions": [
+      "How does KMnO₄ react in acidic, basic and neutral medium?",
+      "Write the reduction half-reactions of MnO₄⁻ in acidic, basic and neutral medium."
+    ],
+    "group": "D Block",
+    "answer": "● Acidic medium:\nMnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O\n● Basic medium:\nMnO₄⁻ + e⁻ → MnO₄²⁻\n● Neutral medium:\nMnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻"
+  },
+  {
+    "versions": [
+      "What are the uses of KMnO₄?",
+      "State the uses of potassium permanganate."
+    ],
+    "group": "D Block",
+    "answer": "Strong oxidising agent, disinfectant, water treatment and volumetric analysis, Bayer's Reagent."
+  },
+  {
+    "versions": [
+      "What is the equivalent weight of KMnO₄ in acidic, basic, neutral medium?",
+      "Calculate the equivalent weight of potassium permanganate in acidic medium."
+    ],
+    "group": "D Block",
+    "answer": "● Acidic: M/5 = 158/5g\n● Basic: M/1 = 158g\n● Neutral: M/3 = 158/3"
+  },
+  {
+    "versions": [
+      "Describe the method of preparation of KMnO₄ from MnO₂."
+    ],
+    "group": "D Block",
+    "answer": "● Step 1: 2MnO₂(Pyrolusite, Brown) + 4KOH + O₂ → 2K₂MnO₄(Potassium Manganate, Green) + 2H₂O\n● Step 2: Conversion of K₂MnO₄ to KMnO₄\nCl₂: 2K₂MnO₄ + Cl₂ → 2KMnO₄ + 2KCl\nO₃: 2K₂MnO₄ + O₃ + H₂O → 2KMnO₄ + 2KOH + O₂\nCO₂: 3K₂MnO₄ + 2CO₂ → 2KMnO₄ + MnO₂ + 2K₂CO₃\nElectrolytic: MnO₄²⁻ → MnO₄⁻ + e⁻"
+  }
+]
