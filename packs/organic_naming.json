@@ -1,0 +1,219 @@
+[
+    {
+        "id": "ns-001",
+        "versions": [
+            "Name the structure of Perfluoroethane."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Perfluoroethane**\n\n**Molecular formula:** C₂F₆\n\n**Condensed structure:** CF₃–CF₃\n\n**Displayed structure:**\n\n```text\n   F   F\n   |   |\nF–C–C–F\n   |   |\n   F   F\n```\n\n**Key point:** It is ethane in which all six H atoms are replaced by F atoms.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-002",
+        "versions": [
+            "Name the structure of DDT."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **DDT — Dichlorodiphenyltrichloroethane**\n\n**IUPAC:** 1,1,1-Trichloro-2,2-bis(4-chlorophenyl)ethane\n\n**Condensed structure:** (p-ClC₆H₄)₂CH–CCl₃\n\n**Formula:** C₁₄H₉Cl₅\n\n**Key point:** Both benzene rings contain para-Cl relative to the ethane bridge.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-003",
+        "versions": [
+            "Name the structure of Catechol."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Catechol = Benzene-1,2-diol = o-Dihydroxybenzene**\n\n**Structure:** C₆H₄(OH)₂ with the –OH groups at adjacent positions.\n\n```text\n       OH\n        |\n     /-----\\\n    |       |\n     \\-----/\n        |\n       OH\n```\n\n**Formula:** C₆H₆O₂",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-004",
+        "versions": [
+            "Name the structure of Resorcinol."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Resorcinol = Benzene-1,3-diol = m-Dihydroxybenzene**\n\n**Structure:** C₆H₄(OH)₂ with –OH groups at 1,3-positions.\n\n**Formula:** C₆H₆O₂",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-005",
+        "versions": [
+            "Name the structure of Quinol (Hydroquinone)."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Quinol / Hydroquinone = Benzene-1,4-diol = p-Dihydroxybenzene**\n\n**Structure:** HO–C₆H₄–OH, with the two –OH groups para to each other.\n\n**Formula:** C₆H₆O₂",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-006",
+        "versions": [
+            "Draw the structures of o-, m- and p-Cresol.",
+            "Name the structures represented by o-, m- and p-Cresol."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Cresols = Methylphenols (CH₃–C₆H₄–OH)**\n\n**o-Cresol (2-methylphenol):** –OH and –CH₃ at 1,2-positions.\n\n**m-Cresol (3-methylphenol):** –OH and –CH₃ at 1,3-positions.\n\n**p-Cresol (4-methylphenol):** –OH and –CH₃ at 1,4-positions.\n\n**Formula of all three:** C₇H₈O",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-007",
+        "versions": [
+            "Name the structure of Cumene."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Cumene = Isopropylbenzene**\n\n**Structure:** C₆H₅–CH(CH₃)₂\n\n**IUPAC:** Propan-2-ylbenzene\n\n**Formula:** C₉H₁₂",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-008",
+        "versions": [
+            "Name the structure of Pyrogallol."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Pyrogallol = Benzene-1,2,3-triol**\n\n**Structure:** C₆H₃(OH)₃ with –OH groups at 1,2,3-positions.\n\n**Formula:** C₆H₆O₃",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-009",
+        "versions": [
+            "Name the structure of Phenolphthalein."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Phenolphthalein**\n\n**Structure:** 3,3-bis(4-hydroxyphenyl)-2-benzofuran-1(3H)-one\n\n**Formula:** C₂₀H₁₂O₄\n\n**Important:** It is a phthalein dye and an acid–base indicator.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-010",
+        "versions": [
+            "Name the structure of Diazomethane."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Diazomethane**\n\n**Formula:** CH₂N₂\n\n**Structure:** CH₂=N⁺=N⁻ ↔ ⁻CH₂–N≡N⁺\n\n**Important:** It is commonly represented as **CH₂N₂** and is an important methylating reagent.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-011",
+        "versions": [
+            "Name the structure of p-Hydroxydiazobenzene."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **p-Hydroxydiazobenzene**\n\n**Structure:** p-HO–C₆H₄–N=N–C₆H₅\n\n**Key point:** The –OH group is para to the diazo linkage on the substituted benzene ring.\n\n**Type:** Azo compound.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-012",
+        "versions": [
+            "Name the structure of o-, m- and p-Toluidine."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Toluidines = Methylanilines**\n\n**o-Toluidine:** 2-methylaniline, o-CH₃–C₆H₄–NH₂\n\n**m-Toluidine:** 3-methylaniline, m-CH₃–C₆H₄–NH₂\n\n**p-Toluidine:** 4-methylaniline, p-CH₃–C₆H₄–NH₂\n\n**Formula:** C₇H₉N",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-013",
+        "versions": [
+            "Name the structure of Glutaric acid."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Glutaric acid = Pentanedioic acid**\n\n**Structure:** HOOC–CH₂–CH₂–CH₂–COOH\n\n**Formula:** C₅H₈O₄",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-014",
+        "versions": [
+            "Name the structure of Adipic acid."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Adipic acid = Hexanedioic acid**\n\n**Structure:** HOOC–(CH₂)₄–COOH\n\n**Formula:** C₆H₁₀O₄",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-015",
+        "versions": [
+            "Name the structure of Pimelic acid."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Pimelic acid = Heptanedioic acid**\n\n**Structure:** HOOC–(CH₂)₅–COOH\n\n**Formula:** C₇H₁₂O₄",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-016",
+        "versions": [
+            "Name the structure of Crotonic acid."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Crotonic acid = But-2-enoic acid**\n\n**Structure:** CH₃–CH=CH–COOH\n\n**Formula:** C₄H₆O₂\n\n**Important:** Naturally occurring crotonic acid is predominantly the **trans (E)** isomer.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-017",
+        "versions": [
+            "Name the structure of Cinnamic acid."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **Cinnamic acid = 3-Phenylprop-2-enoic acid**\n\n**Structure:** C₆H₅–CH=CH–COOH\n\n**Formula:** C₉H₈O₂\n\n**Common form:** trans-(E)-cinnamic acid.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    },
+    {
+        "id": "ns-018",
+        "versions": [
+            "Name the structure of Benzoquinone."
+        ],
+        "group": "Haloalkanes and Haloarenes",
+        "answer": "◆ **p-Benzoquinone = Cyclohexa-2,5-diene-1,4-dione**\n\n**Structure:** A six-membered ring containing two opposite C=O groups and two C=C bonds.\n\n**Formula:** C₆H₄O₂\n\n**Important:** In most basic organic-chemistry contexts, 'benzoquinone' refers to **p-benzoquinone**.",
+        "created_at": "2026-09-21T17:46:26",
+        "times_asked": 0,
+        "times_known": 0,
+        "last_asked": null
+    }
+]
