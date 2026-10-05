@@ -1,0 +1,100 @@
+[
+  {
+    "versions": [
+      "Write the electronic configuration of the 4f series (Lanthanoids)."
+    ],
+    "group": "F Block",
+    "answer": "Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu\n4f:      1 |  3 |  4 |  5 |  6 |  7 |  7 |  9 | 10 | 11 | 12 | 13 | 14 | 14\n5d:      1 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  1\n6s:      2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2"
+  },
+  {
+    "versions": [
+      "Write the electronic configuration of the 5f series (Actinoids)."
+    ],
+    "group": "F Block",
+    "answer": "Th | Pa | U | Np | Pu | Am | Cm | Bk | Cf | Es | Fm | Md | No | Lr\n5f:      0 |  2 | 3 |  4 |  6 |  7 |  7 |  9 | 10 | 11 | 12 | 13 | 14 | 14\n6d:      2 |  1 | 1 |  1 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  1\n7s:      2 |  2 | 2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  2"
+  },
+  {
+    "versions": [
+      "What is the general electronic configuration of F block?"
+    ],
+    "group": "F Block",
+    "answer": "(n−2)f¹⁻¹⁴ (n−1)d⁰⁻¹ ns²"
+  },
+  {
+    "versions": [
+      "What is the most stable oxidation state of F Block?"
+    ],
+    "group": "F Block",
+    "answer": "+3"
+  },
+  {
+    "versions": [
+      "State the start and end elements with atomic numbers of the 4f and 5f series."
+    ],
+    "group": "F Block",
+    "answer": "4f Series: Ce (58) to Lu (71) | 5f Series: Th (90) to Lr (103)"
+  },
+  {
+    "versions": [
+      "Explain the variation in size of Lanthanoids and Actinoids."
+    ],
+    "group": "F Block",
+    "answer": "● Lanthanoids: Size gradually decreases from La → Lu due to Lanthanoid Contraction EXCEPT Eu -> largest size (no confirmed reason)\n● Actinoids: Size gradually decreases from Ac → Lr due to Actinoid Contraction."
+  },
+  {
+    "versions": [
+      "Explain the variation in size of tripositive ions of Lanthanoids and Actinoids."
+    ],
+    "group": "F Block",
+    "answer": "● Ln³⁺: Ionic size regularly decreases from La³⁺ → Lu³⁺ due to Lanthanoid Contraction.\n● An³⁺: Ionic size regularly decreases from Ac³⁺ → Lr³⁺ due to Actinoid Contraction."
+  },
+  {
+    "versions": [
+      "Name all the man-made (synthetic) elements of the periodic table."
+    ],
+    "group": "F Block",
+    "answer": "● Tc (43) – 4d series\n● Pm (61) – 4f series\n● Transuranic elements – All elements after Uranium (Z > 92)"
+  },
+  {
+    "versions": [
+      "Which is the hardest element in the 4f series?"
+    ],
+    "group": "F Block",
+    "answer": "Sm (Samarium)"
+  },
+  {
+    "versions": [
+      "What are the properties of Lanthanoids?"
+    ],
+    "group": "F Block",
+    "answer": "Silvery-white, soft metals, tarnish rapidly, generally show +3 oxidation state, form coloured and paramagnetic ions."
+  },
+  {
+    "versions": [
+      "What are the uses of Lanthanoids?"
+    ],
+    "group": "F Block",
+    "answer": "● Mischmetal contains ~95% lanthanoids + ~5% Fe; used in lighter flints and Mg-based alloys.\n● Petroleum Cracking\n● Flourescent in TVs."
+  },
+  {
+    "versions": [
+      "Which Lanthanoids show +4 oxidation state?"
+    ],
+    "group": "F Block",
+    "answer": "Ce, Pr, Nd, Tb, Dy. (MO₂)"
+  },
+  {
+    "versions": [
+      "Write the general reactions of Lanthanoids with O₂, acids, halogens, H₂O, C, N₂ and S."
+    ],
+    "group": "F Block",
+    "answer": "● O₂: Ln + O₂ → Ln₂O₃\n● Acid: Ln + H⁺ → Ln³⁺ + H₂\n● Halogens: Ln + X₂ → LnX₃\n● H₂O: Ln + H₂O → Ln(OH)₃ + H₂\n● C: Ln + C → LnC₂\n● N₂: Ln + N₂ → LnN\n● S: Ln + S → Ln₂S₃"
+  },
+  {
+    "versions": [
+      "State the oxidation states of Actinoids."
+    ],
+    "group": "F Block",
+    "answer": "4 | 3-5 | 3-6 | 3-7 | 3-7 | 3-6 | 3-4 | 3-4 |----------only 3-------"
+  }
+]

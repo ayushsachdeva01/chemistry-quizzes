@@ -1,0 +1,9 @@
+{
+  "name":"ChemistryRecall",
+  "short_name":"ChemistryRecall",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f4f1e8",
+  "theme_color":"#f4f1e8",
+  "icons":[]
+}
