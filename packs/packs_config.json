@@ -40,6 +40,16 @@
       "icon": "flask",
       "grade": "XII",
       "group": "Inorganic Chemistry"
+    },
+    {
+      "id": "new_study_pack",
+      "name": "New Study Pack",
+      "group": "Organic Chemistry",
+      "description": "",
+      "category": "Chemistry",
+      "icon": "science",
+      "grade": "XI",
+      "path": "packs/study_pack.json"
     }
   ]
 }

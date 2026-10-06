@@ -1,0 +1,464 @@
+[
+  {
+    "id": "q2rg3zpyfqt",
+    "versions": [
+      "What is Friedal Craft Alkylation, Give Example."
+    ],
+    "group": "Organic Chemistry",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 240 130\n\n@text 39.37 5.33 151.82 24.67\n  align: \"center\"\n  color: #174F43\n  rotation: 0\n  size: 16\n  weight: 700\n  \"Friedal Craft Alkylation\"\n@end\n\n@text 5.75 33.12 223.23 20.87\n  align: \"center\"\n  size: 8\n  \"Friedel-Crafts alkylation attaches an alkyl group to an aromatic ring through electrophilic aromatic substitution. ex.\"\n@end\n\n@reaction 10.61 59.02 210.8 51.73\n\n  reactants:\n    - smiles: \"c1ccc(O)cc1\"\n      subtitle: \"Phenol\"\n\n  reagents:\n    top:\n      - text: \"CH₃Cl\"\n\n    bottom:\n      - text: \"AlCl₃\"\n\n  products:\n    - smiles: \"c1(C)ccc(O)cc1\"\n      subtitle: \"Major\"\n    - smiles: \"c1cc(C)c(O)cc1\"\n      subtitle: \"Minor\"\n\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_combustion_alkanes",
+    "versions": [
+      "Combustion of Alkanes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Combustion of Alkanes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alkanes undergo complete combustion in excess oxygen to form CO₂ and H₂O, releasing large heat.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"CC\"\n      subtitle: \"Ethane\"\n\n  reagents:\n    top:\n      - text: \"O₂, excess\"\n\n    bottom:\n\n  products:\n    - text: \"2CO₂ + 3H₂O + heat\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Incomplete combustion with limited O₂ can give CO and/or carbon (soot).\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_halogenation_alkane",
+    "versions": [
+      "Free-Radical Halogenation of Alkanes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Free-Radical Halogenation of Alkanes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alkanes undergo substitution with Cl₂ or Br₂ under light/heat. Bromination is more selective; chlorination is faster but less selective.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"CC\"\n      subtitle: \"Ethane\"\n\n  reagents:\n    top:\n      - text: \"Cl₂\"\n\n    bottom:\n      - text: \"hν\"\n\n  products:\n    - smiles: \"CCCl\"\n      subtitle: \"Chloroethane\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Mechanism: initiation → propagation → termination. Relative C–H reactivity is roughly 3° > 2° > 1° for radical abstraction; bromination shows greater selectivity.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_wurtz",
+    "versions": [
+      "Wurtz Reaction"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Wurtz Reaction\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Two alkyl halides couple with sodium in dry ether to give a higher alkane.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"2 R–X\"\n\n  reagents:\n    top:\n      - text: \"2 Na\"\n\n    bottom:\n      - text: \"dry ether\"\n\n  products:\n    - text: \"R–R + 2 NaX\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Best suited to symmetrical alkanes. Using two different alkyl halides generally gives mixtures.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_decarb",
+    "versions": [
+      "Decarboxylation with Soda Lime"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Decarboxylation with Soda Lime\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Sodium salts of carboxylic acids lose CO₂ on heating with soda lime, giving an alkane with one fewer carbon.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–COONa\"\n\n  reagents:\n    top:\n      - text: \"NaOH + CaO\"\n\n    bottom:\n      - text: \"Δ\"\n\n  products:\n    - text: \"R–H + Na₂CO₃\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"This is a chain-shortening reaction.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_kolbe",
+    "versions": [
+      "Kolbe Electrolysis"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Kolbe Electrolysis\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Electrolysis of concentrated aqueous sodium/potassium carboxylate solutions gives coupled alkanes at the anode.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"2 RCOO⁻\"\n\n  reagents:\n    top:\n      - text: \"electrolysis\"\n\n    bottom:\n\n  products:\n    - text: \"R–R + 2CO₂\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Anodic decarboxylation: RCOO⁻ → R· + CO₂, followed by radical coupling. Mainly useful for symmetrical alkanes.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_alkene_hydrogenation",
+    "versions": [
+      "Catalytic Hydrogenation of Alkenes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Catalytic Hydrogenation of Alkenes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alkenes add H₂ across C=C in the presence of a metal catalyst to form alkanes.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C=C\"\n      subtitle: \"Alkene\"\n\n  reagents:\n    top:\n      - text: \"H₂\"\n\n    bottom:\n      - text: \"Ni / Pt / Pd\"\n\n  products:\n    - smiles: \"CC\"\n      subtitle: \"Alkane\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Syn addition on a metal surface; the reaction removes π-bond unsaturation.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_alkene_halogen",
+    "versions": [
+      "Halogenation of Alkenes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Halogenation of Alkenes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Br₂ or Cl₂ adds across C=C to form vicinal dihalides.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C=C\"\n      subtitle: \"Ethene\"\n\n  reagents:\n    top:\n      - text: \"Br₂\"\n\n    bottom:\n      - text: \"CCl₄\"\n\n  products:\n    - smiles: \"BrCCBr\"\n      subtitle: \"1,2-Dibromoethane\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The reaction proceeds through a halonium-ion intermediate and is stereochemically anti-addition in typical cases.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_hx_mark",
+    "versions": [
+      "Hydrohalogenation — Markovnikov Addition"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Hydrohalogenation — Markovnikov Addition\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"HX adds to an unsymmetrical alkene so that H goes to the carbon already bearing more H atoms and X goes to the more substituted carbon.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C=C(C)C\"\n      subtitle: \"2-methylpropene\"\n\n  reagents:\n    top:\n      - text: \"HCl\"\n\n    bottom:\n\n  products:\n    - smiles: \"CC(Cl)C\"\n      subtitle: \"Major alkyl chloride\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Regiochemistry arises from the relative stability of carbocations in the ionic mechanism. Rearrangements can occur when a more stable carbocation is accessible.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_peroxide_hbr",
+    "versions": [
+      "Peroxide Effect — Anti-Markovnikov HBr"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Peroxide Effect — Anti-Markovnikov HBr\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"In the presence of organic peroxides, HBr adds to an alkene by a radical chain mechanism giving the anti-Markovnikov product.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C=CC\"\n      subtitle: \"Propene\"\n\n  reagents:\n    top:\n      - text: \"HBr\"\n\n    bottom:\n      - text: \"ROOR\"\n\n  products:\n    - smiles: \"CCCBr\"\n      subtitle: \"1-bromopropane\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The peroxide effect is observed reliably with HBr, not normally with HCl or HI, because the radical propagation energetics are unfavorable for those acids.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_hydration",
+    "versions": [
+      "Acid-Catalysed Hydration of Alkenes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Acid-Catalysed Hydration of Alkenes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Water adds across an alkene under acidic conditions to give an alcohol, usually with Markovnikov orientation.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C=CC\"\n      subtitle: \"Propene\"\n\n  reagents:\n    top:\n      - text: \"H₂O\"\n\n    bottom:\n      - text: \"dil. H₂SO₄\"\n\n  products:\n    - smiles: \"CC(O)C\"\n      subtitle: \"2-propanol\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Carbocation formation is involved; rearrangement is possible if a more stable carbocation can form.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_baeyer",
+    "versions": [
+      "Baeyer Test / Cold Dilute KMnO₄"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Baeyer Test / Cold Dilute KMnO₄\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Cold dilute alkaline KMnO₄ oxidises C=C to vicinal diols and its purple colour is discharged.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C=C\"\n      subtitle: \"Alkene\"\n\n  reagents:\n    top:\n      - text: \"KMnO₄, OH⁻\"\n\n    bottom:\n      - text: \"cold, dilute\"\n\n  products:\n    - text: \"vicinal diol\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Useful qualitative test for unsaturation. Hot/concentrated oxidative conditions can cleave the double bond instead.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_ozonolysis_alkene",
+    "versions": [
+      "Ozonolysis of Alkenes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Ozonolysis of Alkenes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"O₃ cleaves C=C; reductive work-up commonly gives aldehydes and/or ketones.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"CC=CC\"\n      subtitle: \"2-butene\"\n\n  reagents:\n    top:\n      - text: \"O₃\"\n\n    bottom:\n      - text: \"Zn/H₂O\"\n\n  products:\n    - text: \"2 CH₃CHO\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Ozonolysis is especially useful for locating the position of a double bond from the carbonyl products.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_alkene_poly",
+    "versions": [
+      "Addition Polymerisation of Alkenes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Addition Polymerisation of Alkenes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alkenes form polymers by repeated addition across the π bond.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"n CH₂=CH₂\"\n\n  reagents:\n    top:\n      - text: \"initiator / catalyst\"\n\n    bottom:\n      - text: \"heat / pressure as required\"\n\n  products:\n    - text: \"(–CH₂–CH₂–)ₙ  polyethylene\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"No small molecule is eliminated in addition polymerisation.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_alkyne_hydrogenation",
+    "versions": [
+      "Hydrogenation of Alkynes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Hydrogenation of Alkynes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"An alkyne can be fully hydrogenated to an alkane or selectively reduced to an alkene.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C#CC\"\n      subtitle: \"Propyne\"\n\n  reagents:\n    top:\n      - text: \"2 H₂\"\n\n    bottom:\n      - text: \"Ni / Pt / Pd\"\n\n  products:\n    - smiles: \"CCC\"\n      subtitle: \"Propane\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Lindlar catalyst gives the cis-alkene on partial hydrogenation; dissolving-metal reduction commonly gives the trans-alkene.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_lindlar",
+    "versions": [
+      "Lindlar Reduction"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Lindlar Reduction\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alkynes are partially hydrogenated to cis-alkenes using a poisoned Pd catalyst.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C#CC\"\n      subtitle: \"Propyne\"\n\n  reagents:\n    top:\n      - text: \"H₂\"\n\n    bottom:\n      - text: \"Lindlar catalyst\"\n\n  products:\n    - smiles: \"C=CC\"\n      subtitle: \"Propene\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"For an internal alkyne, syn addition on the catalyst surface gives the cis (Z) alkene.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_alkyne_hx",
+    "versions": [
+      "Addition of HX to Alkynes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Addition of HX to Alkynes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"HX adds to alkynes; with one equivalent the alkene product forms, and further addition can give a geminal dihalide under Markovnikov conditions.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C#CC\"\n      subtitle: \"Propyne\"\n\n  reagents:\n    top:\n      - text: \"HCl\"\n\n    bottom:\n\n  products:\n    - smiles: \"CC(Cl)=C\"\n      subtitle: \"Vinyl chloride derivative\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Regioselectivity generally follows Markovnikov orientation in ionic addition. Carbocation-like vinyl intermediates are not the same as ordinary alkyl carbocations.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_alkyne_hydration",
+    "versions": [
+      "Hydration of Alkynes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Hydration of Alkynes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alkynes react with water in the presence of Hg²⁺/acid; the enol formed tautomerises to a carbonyl compound.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C#CC\"\n      subtitle: \"Propyne\"\n\n  reagents:\n    top:\n      - text: \"H₂O\"\n\n    bottom:\n      - text: \"HgSO₄ / H₂SO₄\"\n\n  products:\n    - smiles: \"CC(C)=O\"\n      subtitle: \"Propanone\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Terminal alkynes generally give methyl ketones under these Markovnikov hydration conditions. Enol → keto tautomerism drives the observed product.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_terminal_acid",
+    "versions": [
+      "Acidic Nature of Terminal Alkynes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Acidic Nature of Terminal Alkynes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Terminal alkynes have an acidic C–H bond because the conjugate base is an sp-hybridised acetylide ion.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"C#CC\"\n      subtitle: \"1-propyne\"\n\n  reagents:\n    top:\n      - text: \"NaNH₂\"\n\n    bottom:\n      - text: \"liq. NH₃\"\n\n  products:\n    - text: \"CH₃–C≡C⁻ Na⁺ + NH₃\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Terminal alkynes are much more acidic than alkenes/alkanes. Strong bases such as NaNH₂ are required; NaOH is not strong enough for useful deprotonation.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_ag_acetylide",
+    "versions": [
+      "Ammoniacal AgNO₃ Test for Terminal Alkynes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Ammoniacal AgNO₃ Test for Terminal Alkynes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Terminal alkynes form insoluble silver acetylides with ammoniacal AgNO₃.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–C≡CH\"\n\n  reagents:\n    top:\n      - text: \"AgNO₃\"\n\n    bottom:\n      - text: \"NH₃(aq)\"\n\n  products:\n    - text: \"R–C≡C–Ag ↓ + NH₄NO₃\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"This distinguishes terminal alkynes from internal alkynes. Silver acetylides can be shock-sensitive when dry.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_cu_acetylide",
+    "versions": [
+      "Ammoniacal CuCl Test for Terminal Alkynes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Ammoniacal CuCl Test for Terminal Alkynes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Terminal alkynes give a red/copper acetylide precipitate with ammoniacal Cu(I) chloride.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–C≡CH\"\n\n  reagents:\n    top:\n      - text: \"CuCl\"\n\n    bottom:\n      - text: \"NH₃(aq)\"\n\n  products:\n    - text: \"R–C≡C–Cu ↓\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Internal alkynes do not give this test.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_benzene_nitration",
+    "versions": [
+      "Nitration of Benzene"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Nitration of Benzene\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Benzene undergoes electrophilic aromatic substitution with a nitrating mixture to give nitrobenzene.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n\n  reagents:\n    top:\n      - text: \"conc. HNO₃\"\n\n    bottom:\n      - text: \"conc. H₂SO₄, ~323–333 K\"\n\n  products:\n    - smiles: \"[N+]([O-])c1ccccc1\"\n      subtitle: \"Nitrobenzene\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Electrophile: NO₂⁺. Aromaticity is restored after substitution. The Lewis/Brønsted acid generates the electrophile.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_benzene_halogen",
+    "versions": [
+      "Halogenation of Benzene"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Halogenation of Benzene\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Benzene reacts with Cl₂/Br₂ in the presence of a Lewis acid catalyst to give an aryl halide.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n\n  reagents:\n    top:\n      - text: \"Cl₂\"\n\n    bottom:\n      - text: \"FeCl₃ / AlCl₃\"\n\n  products:\n    - smiles: \"Clc1ccccc1\"\n      subtitle: \"Chlorobenzene\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Electrophilic aromatic substitution. FeCl₃/AlCl₃ activates the halogen and helps generate the electrophilic species.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_benzene_sulfonation",
+    "versions": [
+      "Sulphonation of Benzene"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Sulphonation of Benzene\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Benzene reacts with fuming H₂SO₄/oleum to form benzenesulphonic acid by electrophilic aromatic substitution.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n\n  reagents:\n    top:\n      - text: \"SO₃\"\n\n    bottom:\n      - text: \"conc. H₂SO₄ / oleum\"\n\n  products:\n    - text: \"C₆H₅SO₃H\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Sulphonation is reversible; heating with dilute acid/steam can favour desulphonation.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_fc_alkyl",
+    "versions": [
+      "Friedel–Crafts Alkylation"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Friedel–Crafts Alkylation\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"An alkyl group is introduced onto an aromatic ring using an alkyl halide/Lewis acid system.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n    - text: \"R–Cl\"\n\n  reagents:\n    top:\n      - text: \"AlCl₃\"\n\n    bottom:\n\n  products:\n    - text: \"alkylbenzene + HCl\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Carbocation-like electrophiles are involved. Rearrangements are possible, and strongly deactivated rings generally do not undergo the reaction readily.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_fc_acyl",
+    "versions": [
+      "Friedel–Crafts Acylation"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Friedel–Crafts Acylation\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"An acyl group is introduced onto an aromatic ring using an acyl chloride/AlCl₃ system, giving an aryl ketone.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n    - text: \"RCOCl\"\n\n  reagents:\n    top:\n      - text: \"AlCl₃\"\n\n    bottom:\n\n  products:\n    - text: \"Ar–COR + HCl\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The electrophile is an acylium ion, RCO⁺. Unlike alkylation, acylium ions are resonance-stabilised, so skeletal rearrangement is not normally an issue. Acylation usually stops at the ketone because –COR deactivates the ring.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_sidechain_oxidation",
+    "versions": [
+      "Side-Chain Oxidation of Alkylbenzenes"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Side-Chain Oxidation of Alkylbenzenes\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"An alkylbenzene with at least one benzylic H can be oxidised strongly to benzoic acid.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"Cc1ccccc1\"\n      subtitle: \"Toluene\"\n\n  reagents:\n    top:\n      - text: \"KMnO₄\"\n\n    bottom:\n      - text: \"OH⁻, heat; then H⁺\"\n\n  products:\n    - smiles: \"O=C(O)c1ccccc1\"\n      subtitle: \"Benzoic acid\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The whole side chain is oxidised to –COOH, provided a benzylic hydrogen is present. Alkylbenzenes lacking a benzylic H resist this oxidation under these conditions.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_benzene_hydrogenation",
+    "versions": [
+      "Hydrogenation of Benzene"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Hydrogenation of Benzene\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Benzene can be hydrogenated under forcing catalytic conditions to cyclohexane.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n\n  reagents:\n    top:\n      - text: \"3 H₂\"\n\n    bottom:\n      - text: \"Ni / Pt, pressure, heat\"\n\n  products:\n    - smiles: \"C1CCCCC1\"\n      subtitle: \"Cyclohexane\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Aromatic stabilisation makes benzene much less reactive toward ordinary addition than an alkene.\"\n@end\n"
+    }
+  },
+  {
+    "id": "rxn_benzene_combustion",
+    "versions": [
+      "Combustion of Benzene"
+    ],
+    "group": "Class XI — Hydrocarbons",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Combustion of Benzene\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Benzene burns in oxygen to form CO₂ and H₂O; insufficient oxygen can give a smoky flame because of its high carbon content.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"c1ccccc1\"\n      subtitle: \"Benzene\"\n\n  reagents:\n    top:\n      - text: \"15/2 O₂\"\n\n    bottom:\n      - text: \"ignition\"\n\n  products:\n    - text: \"6 CO₂ + 3 H₂O + heat\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The sooty flame is characteristic of aromatic hydrocarbons.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_sn1",
+    "versions": [
+      "SN1 Substitution — Mechanism & Reactivity"
+    ],
+    "group": "Mechanism Extension — Haloalkanes",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"SN1 Substitution — Mechanism & Reactivity\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"SN1 is a two-step unimolecular substitution involving carbocation formation followed by nucleophile attack.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–X\"\n\n  reagents:\n    top:\n      - text: \"H₂O / ROH\"\n\n    bottom:\n      - text: \"polar protic solvent\"\n\n  products:\n    - text: \"R–OH + HX\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Rate = k[R–X]. Reactivity: 3° > 2° >> 1° ≈ methyl because carbocation stability controls the slow ionisation step. Allylic/benzylic substrates are especially reactive. Rearrangements (1,2-H or 1,2-alkyl shifts) are possible when they create a more stable carbocation. Product stereochemistry can show racemisation/partial racemisation at a chiral centre.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_sn2",
+    "versions": [
+      "SN2 Substitution — Mechanism & Reactivity"
+    ],
+    "group": "Mechanism Extension — Haloalkanes",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"SN2 Substitution — Mechanism & Reactivity\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"SN2 is a one-step bimolecular backside attack with simultaneous bond breaking and bond making.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–X\"\n\n  reagents:\n    top:\n      - text: \"OH⁻ / CN⁻ / I⁻ etc.\"\n\n    bottom:\n      - text: \"polar aprotic solvent\"\n\n  products:\n    - text: \"R–Nu + X⁻\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Rate = k[R–X][Nu⁻]. Reactivity: methyl > 1° > 2° >> 3°. Steric hindrance strongly slows SN2. It gives inversion of configuration (Walden inversion). Strong, unhindered nucleophiles and polar aprotic solvents generally accelerate it.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_e1",
+    "versions": [
+      "E1 Elimination — Carbocation Route"
+    ],
+    "group": "Mechanism Extension — Haloalkanes",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"E1 Elimination — Carbocation Route\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"E1 is a two-step elimination through a carbocation; deprotonation forms an alkene.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–X\"\n\n  reagents:\n    top:\n      - text: \"base\"\n\n    bottom:\n      - text: \"polar protic, heat\"\n\n  products:\n    - text: \"alkene + HX\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Rate = k[R–X]. Favoured by 3° substrates and heat. Carbocation rearrangements are possible. Product distribution often follows Zaitsev orientation unless conditions/substrate favour another pathway.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_e2",
+    "versions": [
+      "E2 Elimination — Concerted"
+    ],
+    "group": "Mechanism Extension — Haloalkanes",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"E2 Elimination — Concerted\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"E2 is a one-step, bimolecular elimination in which base removes a β-H as the leaving group departs.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–CH₂–CHX–R\"\n\n  reagents:\n    top:\n      - text: \"strong base\"\n\n    bottom:\n      - text: \"heat\"\n\n  products:\n    - text: \"alkene + HB + X⁻\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Rate = k[R–X][Base]. Requires suitable anti-periplanar geometry in the ideal stereochemical pathway. No carbocation is formed, so rearrangement does not occur. Bulky bases can favour the less substituted (Hofmann) alkene.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_rearrange",
+    "versions": [
+      "Carbocation Rearrangements — 1,2-H / 1,2-Alkyl Shift"
+    ],
+    "group": "Mechanism Extension — Haloalkanes & Alkenes",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Carbocation Rearrangements — 1,2-H / 1,2-Alkyl Shift\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"A carbocation can rearrange by migration of H or an alkyl group with its bonding electron pair to generate a more stable carbocation.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"secondary carbocation\"\n\n  reagents:\n    top:\n\n    bottom:\n\n  products:\n    - text: \"more stable tertiary carbocation\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Common in SN1, E1 and acid-catalysed alkene additions. No rearrangement is expected in concerted SN2/E2 mechanisms. Hydride shifts and alkyl shifts are the key textbook patterns.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_williamson",
+    "versions": [
+      "Williamson Ether Synthesis"
+    ],
+    "group": "Mechanism Extension — Alcohols & Ethers",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Williamson Ether Synthesis\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"An alkoxide attacks a primary alkyl halide by SN2 to form an ether.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–O⁻ Na⁺\"\n    - text: \"R′–X\"\n\n  reagents:\n    top:\n\n    bottom:\n      - text: \"dry ether / suitable conditions\"\n\n  products:\n    - text: \"R–O–R′ + NaX\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Best with methyl/primary halides. Secondary substrates can compete with E2; tertiary halides generally undergo elimination rather than useful SN2. The alkoxide should attack the less hindered carbon.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_alcohol_dehyd",
+    "versions": [
+      "Dehydration of Alcohols"
+    ],
+    "group": "Mechanism Extension — Alcohols",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Dehydration of Alcohols\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Alcohols lose water under acidic conditions on heating to give alkenes.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"CCO\"\n      subtitle: \"Ethanol\"\n\n  reagents:\n    top:\n      - text: \"conc. H₂SO₄\"\n\n    bottom:\n      - text: \"443 K\"\n\n  products:\n    - smiles: \"C=C\"\n      subtitle: \"Ethene\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"For 2°/3° alcohols, E1 pathways can involve carbocations and rearrangement; 1° alcohols generally dehydrate by a more concerted acid-catalysed elimination pathway. Zaitsev alkene is commonly major.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_alcohol_oxid",
+    "versions": [
+      "Oxidation of Alcohols"
+    ],
+    "group": "Mechanism Extension — Alcohols",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Oxidation of Alcohols\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Primary alcohols can oxidise to aldehydes and then acids; secondary alcohols to ketones; tertiary alcohols resist mild oxidation.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"CCO\"\n      subtitle: \"Primary alcohol\"\n\n  reagents:\n    top:\n      - text: \"[O]\"\n\n    bottom:\n      - text: \"PCC or controlled oxidation\"\n\n  products:\n    - smiles: \"CC=O\"\n      subtitle: \"Aldehyde\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Further oxidation of a primary alcohol generally gives a carboxylic acid under stronger aqueous oxidising conditions. Secondary alcohol → ketone. Tertiary alcohols lack an α-H required for the usual oxidation pathway.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_lucas",
+    "versions": [
+      "Lucas Test"
+    ],
+    "group": "Mechanism Extension — Alcohols",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Lucas Test\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Lucas reagent converts alcohols to alkyl chlorides; turbidity indicates formation of the poorly soluble chloride.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–OH\"\n\n  reagents:\n    top:\n      - text: \"conc. HCl\"\n\n    bottom:\n      - text: \"anhyd. ZnCl₂\"\n\n  products:\n    - text: \"R–Cl + H₂O\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Approximate room-temperature classification: 3° gives immediate turbidity, 2° in minutes, 1° usually no turbidity at room temperature. The test reflects carbocation/SN1 tendency for suitable alcohols, but substrate-specific behaviour matters.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_phenol_brom",
+    "versions": [
+      "Bromination of Phenol"
+    ],
+    "group": "Mechanism Extension — Phenols",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Bromination of Phenol\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"The –OH group strongly activates the aromatic ring and directs electrophilic substitution to ortho/para positions.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"Oc1ccccc1\"\n      subtitle: \"Phenol\"\n\n  reagents:\n    top:\n      - text: \"Br₂\"\n\n    bottom:\n      - text: \"water\"\n\n  products:\n    - text: \"2,4,6-tribromophenol + HBr\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"Phenol reacts readily without a Lewis-acid catalyst because –OH donates electron density by resonance. With bromine water, a white precipitate of 2,4,6-tribromophenol is formed.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_kolbe_schmitt",
+    "versions": [
+      "Kolbe–Schmitt Reaction"
+    ],
+    "group": "Mechanism Extension — Phenols",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Kolbe–Schmitt Reaction\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Sodium phenoxide reacts with CO₂ under pressure/heat and acid work-up to give mainly salicylic acid.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"C₆H₅ONa\"\n\n  reagents:\n    top:\n      - text: \"CO₂\"\n\n    bottom:\n      - text: \"~400 K, pressure; then H⁺\"\n\n  products:\n    - text: \"o-HO–C₆H₄–COOH (salicylic acid)\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The phenoxide ion activates the ring and directs electrophilic carboxylation mainly ortho under the usual conditions.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_reimer",
+    "versions": [
+      "Reimer–Tiemann Reaction"
+    ],
+    "group": "Mechanism Extension — Phenols",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Reimer–Tiemann Reaction\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Phenol with CHCl₃ and aqueous NaOH gives mainly o-hydroxybenzaldehyde after work-up.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - smiles: \"Oc1ccccc1\"\n      subtitle: \"Phenol\"\n\n  reagents:\n    top:\n      - text: \"CHCl₃\"\n\n    bottom:\n      - text: \"aq. NaOH, heat; then H⁺\"\n\n  products:\n    - text: \"o-HO–C₆H₄–CHO (salicylaldehyde)\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"The key reactive species is dichlorocarbene (:CCl₂), generated under strongly basic conditions. Ortho product is usually major.\"\n@end\n"
+    }
+  },
+  {
+    "id": "ext_ether_cleave",
+    "versions": [
+      "Cleavage of Ethers with HI"
+    ],
+    "group": "Mechanism Extension — Ethers",
+    "answer": {
+      "format": "ccf",
+      "content": "@ccf 1\n@canvas 1200 760\n\n@text 60 35 1080 55\n  align: \"center\"\n  color: #174F43\n  weight: 700\n  size: 26\n  \"Cleavage of Ethers with HI\"\n@end\n\n@text 70 100 1060 100\n  align: \"center\"\n  size: 15\n  \"Ethers are cleaved by concentrated HI/HBr; the pathway depends strongly on whether the alkyl groups are primary, secondary or tertiary and whether an aryl group is present.\"\n@end\n\n@reaction 80 220 1040 270\n\n  reactants:\n    - text: \"R–O–R′\"\n\n  reagents:\n    top:\n      - text: \"excess HI\"\n\n    bottom:\n      - text: \"heat\"\n\n  products:\n    - text: \"alkyl iodides + H₂O\"\n\n@end\n\n@text 70 520 1060 195\n  align: \"left\"\n  size: 14\n  valign: \"top\"\n  \"For aryl–alkyl ethers, cleavage occurs at the alkyl–O bond; the aryl–O bond is not normally cleaved by SN2. Tertiary alkyl groups can undergo SN1-type cleavage.\"\n@end\n"
+    }
+  }
+]

@@ -63,8 +63,7 @@ const LEVEL_TITLES = [
   [55,'Chemistry Ace'],
   [75,'Organic Strategist'],
   [100,'Master of Recall'],
-  [150,'Chemistry Legend'],
-  [1000,'Chemistry Legend · MAX']
+  [150,'Chemistry Legend']
 ];
 
 const defaultState = {
@@ -199,36 +198,27 @@ function ensureDay(grade){
   save();
 }
 
-const MAX_LEVEL = 1000;
-
 function levelThreshold(level){
   if(level <= 1) return 0;
-  const target = Math.min(level, MAX_LEVEL);
   let total = 0;
-  // Leveling starts deliberately slower than before and scales steadily.
-  // The cost rises roughly linearly with level, making Level 1000 a
-  // long-term achievement without making the final levels unreachable.
-  for(let current=2; current<=target; current++){
-    const cost = Math.round(120 + (3 * current));
+  // Each level costs more than the one before it.
+  for(let current=2; current<=level; current++){
+    const cost = Math.max(100, Math.round(100 * Math.pow(1.09, current-2)));
     total += cost;
   }
   return total;
 }
-
 function levelInfo(xp){
-  const safeXp = Math.max(0, Number(xp) || 0);
   let level=1;
-  while(level < MAX_LEVEL && levelThreshold(level+1) <= safeXp){ level++; }
-
+  while(levelThreshold(level+1) <= xp && level < 100000){ level++; }
   const start=levelThreshold(level);
-  const isMax=level >= MAX_LEVEL;
-  const next=isMax ? start : levelThreshold(level+1);
+  const next=levelThreshold(level+1);
   return {
-    level, start, next, isMax,
-    into:Math.max(0,safeXp-start),
-    needed:isMax ? 0 : Math.max(0,next-safeXp),
+    level, start, next,
+    into:Math.max(0,xp-start),
+    needed:Math.max(0,next-xp),
     span:Math.max(1,next-start),
-    pct:isMax ? 100 : Math.min(100,Math.max(0,((safeXp-start)/(next-start))*100))
+    pct:Math.min(100,Math.max(0,((xp-start)/(next-start))*100))
   };
 }
 function levelTitle(level){
@@ -598,7 +588,7 @@ function renderCustomQuizzes(){
   const list=$('#customQuizList');
   const quizzes=state.customQuizzes[activeGrade]||[];
   if(!quizzes.length){
-    list.innerHTML=`<div class="custom-empty"><span class="material-symbols-rounded">auto_awesome</span><div><strong>Create your first quiz</strong><p>Tell an AI what you want to practise, paste its compact quiz response here, and keep the quiz in Chemory.</p></div><button id="customEmptyCreate" class="secondary-cta" type="button">Create a quiz</button></div>`;
+    list.innerHTML=`<div class="custom-empty"><span class="material-symbols-rounded">auto_awesome</span><div><strong>Create your first quiz</strong><p>Tell an AI what you want to practise, paste its compact quiz response here, and keep the quiz in ChemistryRecall.</p></div><button id="customEmptyCreate" class="secondary-cta" type="button">Create a quiz</button></div>`;
     $('#customEmptyCreate').onclick=openCustomQuizModal; return;
   }
   list.innerHTML=quizzes.map(q=>`<article class="custom-quiz-card"><div class="custom-quiz-icon"><span class="material-symbols-rounded">auto_awesome</span></div><div class="custom-quiz-copy"><span>${escapeHtml(q.chapter||'Custom')} · ${escapeHtml(customDifficultyLabel(q.difficulty))}</span><h3>${escapeHtml(q.title)}</h3><p>${q.questions.length} questions</p></div><button class="custom-play" data-custom-play="${escapeAttr(q.id)}" type="button"><span class="material-symbols-rounded">play_arrow</span> Practice</button><button class="custom-delete" data-custom-delete="${escapeAttr(q.id)}" type="button" aria-label="Delete quiz"><span class="material-symbols-rounded">delete</span></button></article>`).join('');
@@ -665,11 +655,11 @@ function updateTopbar(){
   $('#streakChip').hidden=!has;
   $('#classChip').hidden=!has;
   if(!has){
-    $('#brandContext').textContent='By Ayush Sachdeva';
+    $('#brandContext').textContent='A calmer way to remember chemistry';
     return;
   }
   ensureDaySilent(activeGrade);
-  $('#brandContext').textContent=`Ayush Sachdeva · Class ${activeGrade} Chemistry`;
+  $('#brandContext').textContent=`Class ${activeGrade} Chemistry`;
   $('#breadcrumb').textContent=`CLASS ${activeGrade} · CHEMISTRY`;
   $('#xpChipValue').textContent=formatNumber(getTotalXP());
   $('#streakChipValue').textContent=state.streak[activeGrade];
@@ -1511,17 +1501,6 @@ function renderAchievementsModal(){
     return true;
   });
   $('#achievementEarnedCount').textContent=formatNumber(achievementEarnedTotal(activeGrade));
-  const level=levelInfo(getTotalXP());
-  $('#achievementLevelNumber').textContent=level.isMax ? `Level ${level.level} · MAX` : `Level ${level.level}`;
-  $('#achievementLevelTitle').textContent=levelTitle(level.level);
-  $('#achievementLevelSummary').textContent=level.isMax
-    ? 'You have reached the maximum level. XP can still be earned, but progression is complete.'
-    : `${formatNumber(level.into)} XP earned in this level. ${formatNumber(level.needed)} XP remains before Level ${level.level+1}.`;
-  $('#achievementLevelInto').textContent=`${formatNumber(level.into)} XP`;
-  $('#achievementLevelPercent').textContent=`${Math.round(level.pct)}%`;
-  $('#achievementLevelFill').style.width=`${level.pct}%`;
-  $('#achievementLevelStart').textContent=`${formatNumber(level.start)} XP at level start`;
-  $('#achievementLevelNext').textContent=level.isMax ? 'MAX LEVEL REACHED' : `${formatNumber(level.needed)} XP to Level ${level.level+1}`;
   $('#achievementList').innerHTML=filtered.map(def=>`
     <article class="achievement-item ${def.level?'earned':''}">
       <div class="achievement-icon-wrap">
@@ -1561,31 +1540,21 @@ function renderStats(){
   $('#heroLevelRank').textContent=levelTitle(info.level).toUpperCase();
   $('#heroLevelFill').style.width=`${info.pct}%`;
   $('#heroLevelInto').textContent=`${formatNumber(info.into)} XP`;
-  $('#heroLevelRemaining').textContent=info.isMax
-    ? 'MAX LEVEL REACHED'
-    : `${formatNumber(info.needed)} XP to reach Level ${info.level+1}`;
-  $('#heroLevelNext').textContent=info.isMax ? 'MAX' : `Level ${info.level+1}`;
-  $('#heroLevelMotivation').textContent=info.isMax
-    ? 'You reached the maximum level. Keep studying and keep the streak alive.'
-    : getTotalXP()===0
-      ? 'Start with one question. Build the streak from there.'
-      : `${formatNumber(info.needed)} XP stands between you and the next level.`;
-  $('#heroLevelGlory').textContent=info.isMax
-    ? 'MAX LEVEL REACHED · Chemistry Legend'
-    : info.pct>=80
-      ? 'Almost there — finish the bar and unlock the next level.'
-      : `${formatNumber(info.into)} XP earned at this level · ${formatNumber(info.span)} XP to go in the full level span.`;
+  $('#heroLevelRemaining').textContent=`${formatNumber(info.needed)} XP to reach Level ${info.level+1}`;
+  $('#heroLevelNext').textContent=`Level ${info.level+1}`;
+  $('#heroLevelMotivation').textContent=getTotalXP()===0
+    ? 'Start with one question. Build the streak from there.'
+    : `${formatNumber(info.needed)} XP stands between you and the next level.`;
+  $('#heroLevelGlory').textContent=info.pct>=80
+    ? 'Almost there — finish the bar and unlock the next level.'
+    : `${formatNumber(info.into)} XP earned at this level · ${formatNumber(info.span)} XP to go in the full level span.`;
   $('#levelCard').style.setProperty('--level-angle', `${Math.max(0,info.pct)*3.6}deg`);
 
   $('#sideXp').textContent=formatNumber(getTotalXP());
-  $('#sideMomentumText').textContent=info.isMax
-    ? 'MAX LEVEL REACHED'
-    : getTotalXP()===0
-      ? 'Start with one question and build from there.'
-      : `${formatNumber(info.needed)} XP to reach Level ${info.level+1}.`;
+  $('#sideMomentumText').textContent=getTotalXP()===0?'Start with one question and build from there.':`${formatNumber(info.needed)} XP to reach Level ${info.level+1}.`;
   $('#sideLevelFill').style.width=`${info.pct}%`;
   $('#sideLevelName').textContent=`Level ${info.level}`;
-  $('#sideNextLevel').textContent=info.isMax ? 'MAX LEVEL' : `${formatNumber(info.needed)} XP to go`;
+  $('#sideNextLevel').textContent=`${formatNumber(info.needed)} XP to go`;
 
   renderAchievementsPreview(g);
   renderRecent();
@@ -1596,7 +1565,7 @@ function renderDashboard(){
   $('#dashboardEyebrow').textContent=`CLASS ${activeGrade} · CHEMISTRY`;
   $('#dashboardTitle').textContent='Choose a pack. Build momentum.';
   $('#dashboardSubtitle').textContent=activeGrade==='XII'
-    ? 'Study packs are the heart of Chemory. Choose a pack, set your pace, and let adaptive exposure keep every session useful.'
+    ? 'Study packs are the heart of ChemistryRecall. Choose a pack, set your pace, and let adaptive exposure keep every session useful.'
     : 'Your Class XI library is ready. Add study packs and start building momentum from day one.';
 
   $('#recallLab').hidden=activeGrade!=='XII';
@@ -1704,15 +1673,3 @@ function ensureInitial(){
 }
 
 ensureInitial();
-
-// Branded launch screen: keep the first paint intentional, then hand off to the app.
-(function initSplash(){
-  const splash=$('#splashScreen');
-  if(!splash) return;
-  const hide=()=>{
-    splash.classList.add('is-leaving');
-    window.setTimeout(()=>splash.remove(),1840);
-  };
-  if(document.readyState==='complete') window.setTimeout(hide,850);
-  else window.addEventListener('load',()=>window.setTimeout(hide,650),{once:true});
-})();

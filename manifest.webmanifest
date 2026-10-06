@@ -1,9 +1,23 @@
 {
-  "name":"ChemistryRecall",
-  "short_name":"ChemistryRecall",
-  "start_url":"./",
-  "display":"standalone",
-  "background_color":"#f4f1e8",
-  "theme_color":"#f4f1e8",
-  "icons":[]
+  "name": "Chemory",
+  "short_name": "Chemory",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f1e8",
+  "theme_color": "#f4f1e8",
+  "icons": [
+    {
+      "src": "assets/chemory-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/chemory-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "description": "Focused chemistry recall practice by Ayush Sachdeva."
 }

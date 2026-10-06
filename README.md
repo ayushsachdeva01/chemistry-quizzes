@@ -1,12 +1,12 @@
-# ChemistryRecall
+# Chemory
 
-**ChemistryRecall** is a study-first chemistry practice app designed to help you revise concepts through focused Study Packs, adaptive practice, and fast recall.
+**Chemory** is a study-first chemistry practice app designed to help you revise concepts through focused Study Packs, adaptive practice, and fast recall.
 
 ---
 
-## What ChemistryRecall Does
+## What Chemory Does
 
-ChemistryRecall turns chemistry revision into short, repeatable practice sessions.
+Chemory turns chemistry revision into short, repeatable practice sessions.
 
 Instead of making you work through large chapter lists every time, you can choose a **Study Pack**, select how many questions you want to attempt, and start practising immediately.
 
@@ -16,7 +16,7 @@ The app keeps track of your progress locally so your revision history and progre
 
 ## Study Packs
 
-Study Packs are the main way to practise in ChemistryRecall.
+Study Packs are the main way to practise in Chemory.
 
 You can choose from the available packs and start a session with:
 
@@ -29,7 +29,7 @@ You can choose from the available packs and start a session with:
 
 ### Adaptive Practice
 
-ChemistryRecall does not simply show questions in a fixed order.
+Chemory does not simply show questions in a fixed order.
 
 Practice adapts to your performance by prioritising:
 
@@ -43,7 +43,7 @@ This helps you spend more time on the material that actually needs revision.
 
 ## Your Progress
 
-ChemistryRecall keeps your study progression available between sessions.
+Chemory keeps your study progression available between sessions.
 
 Your progress includes:
 
@@ -61,7 +61,7 @@ These systems are designed to make regular revision easier to maintain without t
 
 ## Class XI & Class XII
 
-ChemistryRecall keeps **Class XI and Class XII** as separate study areas.
+Chemory keeps **Class XI and Class XII** as separate study areas.
 
 Choose the class you are currently studying to keep your revision focused on the appropriate material.
 
@@ -90,7 +90,7 @@ Test your vitamin knowledge using multiple-choice questions.
 
 ## Chemistry Rendering
 
-ChemistryRecall supports rich chemistry content directly inside questions and answers.
+Chemory supports rich chemistry content directly inside questions and answers.
 
 Depending on the study material, you may encounter:
 
@@ -106,7 +106,7 @@ The app renders chemical structures as vector graphics where possible, keeping t
 
 ### Reliable Rendering
 
-ChemistryRecall includes a built-in fallback renderer for chemistry structures.
+Chemory includes a built-in fallback renderer for chemistry structures.
 
 This means chemistry content can remain visible even when the primary structure-rendering component is unavailable.
 
@@ -122,13 +122,56 @@ The goal is to keep the process fast so that you can spend your time **recalling
 
 ---
 
+## Create & Practise Your Own Quiz
+
+Chemory lets you create custom chemistry quizzes with the help of any AI you already use.
+
+1. Choose your **chapter or topic**.
+2. Choose a difficulty: **Easy 1, Easy 2, Medium 1, Medium 2, Hard 1, or Hard 2**.
+3. Choose the number of questions and add any extra requirements you want.
+4. Chemory generates a compact prompt.
+5. Paste that prompt into your preferred AI.
+6. Paste the AI's response back into Chemory.
+7. Chemory validates and saves the quiz locally.
+8. Play the saved quiz whenever you want and earn XP just like normal practice.
+
+The AI exchange uses a compact quiz format so that questions, answers, and question-type data can be transferred with as little unnecessary text as possible. Custom quizzes can include:
+
+- Subjective / recall questions
+- Single-correct MCQs
+- Multiple-correct MSQs
+- Numerical-answer questions
+- Matrix-match questions
+- Assertion–Reason questions
+
+Matrix-match questions have their own interactive matching interface. AI-generated quizzes can also use inline SMILES such as `[[smiles:CCO]]` when a chemical structure is useful.
+
+Your saved custom quizzes are kept locally on your device and are available from the **Create & practise** section of the selected class.
+
+### Global XP
+
+Your XP and level are now **shared across Class XI and Class XII**. Studying either class contributes to the same Chemory progression. Your class-specific study history remains separate, so switching classes does not erase or mix the underlying card practice.
+
+---
+
 ## Chapterwise Quizzes
 
-ChemistryRecall currently focuses on **Study Packs** rather than a separate chapterwise quiz system.
+Chemory currently focuses on **Study Packs** rather than a separate chapterwise quiz system.
 
 The chapterwise quiz interface is therefore not part of the active app experience.
 
 ---
+
+## Today’s Mission
+
+The daily mission scales with your active-class streak so that longer streaks give you a more substantial challenge and reward.
+
+- Starts at **10 questions + 50 bonus XP**.
+- Increases by **2 questions and 5 bonus XP per consecutive streak day**.
+- Caps at **40 questions + 125 bonus XP**.
+- Once the cap is reached, the mission stays there rather than growing forever.
+
+Your streak itself can continue beyond the mission cap; only the mission difficulty and bonus stop increasing.
 
 ## Progress & Data
 
@@ -156,8 +199,15 @@ For the best results:
 
 ## The Core Idea
 
-ChemistryRecall is built around one simple principle:
+Chemory is built around one simple principle:
 
 > **See less. Recall more.**
 
 The app is designed to make chemistry revision quick, focused, and repeatable — so you can spend more time actively retrieving information and less time managing your study material.
+
+
+---
+
+**Chemory** is created by **Ayush Sachdeva**.
+
+A Monocode project.

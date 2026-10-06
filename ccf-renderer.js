@@ -937,10 +937,17 @@
     }catch(err){ showError(target,err?.message||String(err)); return false; }
   }
 
+  function normalizeRichText(value){
+    return String(value??'')
+      .replace(/\\r\\n/g,'\n')
+      .replace(/\\n/g,'\n')
+      .replace(/\\r/g,'\n');
+  }
+
   function renderRich(target,content){
     if(!target) return false;
     if(content && typeof content==='object' && String(content.format||'').toLowerCase()==='ccf') return renderCCF(target,String(content.content||''));
-    const text=String(content??'');
+    const text=normalizeRichText(content);
     if(/^\s*@ccf\s+1\b/i.test(text)){ return renderCCF(target,text); }
     target.classList.remove('ccf-error-state','ccf-stage');
     target.innerHTML='';
